@@ -1,0 +1,31 @@
+@align : center;
+@border:2px solid black;
+
+.my_element{
+	padding-top:15%;
+	padding-bottom:15%;
+	text-align:@align;
+	border: @border;
+	height:100%;
+}
+
+@font:20px;
+
+button{
+	padding:20px 30px;
+	font-size:@font;
+	background:green;
+	color:white;
+	border:none;
+	cursor:pointer;
+	border-radius:5px;
+	transition-duration:500ms;
+}
+
+button:hover{
+	padding:20px 30px;
+	font-size:@font;
+	background:white;
+	color:green;
+	border:1px solid green;
+}
